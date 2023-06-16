@@ -7,11 +7,10 @@
  */
 int main(void)
 {
-	int sentence = strlen("and that piece of art is useful\" - Dora Korpar, 
-			2015-10-19\n");
+	char *sentence = "and that piece of art is useful\" - Dora Korpar,
+			2015-10-19";
 
-	write(2,
-		"and that piece of art is useful\" - Dora - Korpar, 2015-10-19\n",
-		sentence);
+	write(2,sentence, 49);
+	write(2, "\n", 1);
 	return (1);
 }
