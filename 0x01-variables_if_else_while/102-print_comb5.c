@@ -26,7 +26,7 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-			++valueTwo
+			++valueTwo;
 		}
 		++valueOne;
 	}
