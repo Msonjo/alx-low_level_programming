@@ -13,11 +13,11 @@ int main(void)
 		valueTwo = valueOne;
 		while (valueTwo <= 99)
 		{
-			putchar((valueOne / 10) + 48);
-			putchar((valueOne % 10) + 48);
+			putchar((valueOne / 10) + '0');
+			putchar((valueOne % 10) + '0');
 			putchar(' ');
-			putchar((valueTwo / 10) + 48);
-			putchar((valueTwo % 10) + 48);
+			putchar((valueTwo / 10) + '0');
+			putchar((valueTwo % 10) + '0');
 			if (valueOne != 99 || valueTwo != 99)
 			{
 				putchar(',');
