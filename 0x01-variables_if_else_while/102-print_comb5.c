@@ -13,15 +13,12 @@ int main(void)
 		valueTwo = valueOne;
 		while (valueTwo <= 99)
 		{
-			if (valueTwo != valueOne)
-			{
-				putchar((valueOne / 10) + 48);
-				putchar((valueOne % 10) + 48);
-				putchar(' ');
-				putchar((valueTwo / 10) + 48);
-				putchar((valueTwo % 10) + 48);
-			}
-			else if (valueOne != 98 || valueTwo != 99)
+			putchar((valueOne / 10) + 48);
+			putchar((valueOne % 10) + 48);
+			putchar(' ');
+			putchar((valueTwo / 10) + 48);
+			putchar((valueTwo % 10) + 48);
+			if (valueOne != 98 || valueTwo != 99)
 			{
 				putchar(',');
 				putchar(' ');
