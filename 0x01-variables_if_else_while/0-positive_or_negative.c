@@ -5,6 +5,7 @@
  * main - main block
  * Return: Always 0
  * DESCRIPTION: print value of n status: positive, zero, negative
+ */
 
 int main(void)
 {
