@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	int valueOne = 0, valueTwo;
+	int valueOne = 0, valueTwo = 0;
 
 	while (valueOne <= 99)
 	{
