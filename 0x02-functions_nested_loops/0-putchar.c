@@ -10,10 +10,10 @@ int main(void)
 
 	while (message[i] != '\0')
 	{
-		_putchar(message[i]);
+		putchar(message[i]);
 		i++;
 	}
-	_putchar('\n');
+	putchar('\n');
 
 	return (0);
 }
