@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include "main.h"
 /**
  * main - main block
  * Return: always 0
@@ -10,10 +10,10 @@ int main(void)
 
 	while (message[i] != '\0')
 	{
-		putchar(message[i]);
+		_putchar(message[i]);
 		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
